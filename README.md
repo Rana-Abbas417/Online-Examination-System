@@ -1,50 +1,89 @@
 # Online Examination System
 
-A web-based **Online Examination System** built with PHP, MySQL, HTML, and CSS. The project provides separate candidate and administrator workflows for managing and attempting online exams.
+A web-based **Online Examination System** built with PHP, MySQL, HTML5, CSS3, and JavaScript.
+
+The system provides separate workflows for candidates and administrators. Candidates can register, log in, attempt available examinations, submit answers, and view their results. Administrators can manage examinations and questions and view registered candidates.
+
+---
 
 ## Features
 
 ### Candidate
+
 - Candidate registration
-- Candidate login/logout
-- Dashboard with available exams
-- Online exam attempt interface
-- Automatic result submission and result viewing
-- Previous results overview
+- Candidate login and logout
+- Candidate dashboard
+- View available examinations
+- Attempt online examinations
+- Multiple-choice questions
+- Automatic result calculation
+- View examination percentage
+- View previous examination results
 
 ### Administrator
-- Admin authentication
-- Create and manage exams
-- Add and manage exam questions
+
+- Administrator login
+- Administrator dashboard
+- Create examinations
+- Manage examination questions
+- Delete questions
+- Delete examinations
 - View registered candidates
+
+---
 
 ## Technologies Used
 
+- **Frontend:** HTML5, CSS3, JavaScript
 - **Backend:** PHP
 - **Database:** MySQL
-- **Frontend:** HTML5, CSS3
-- **Database Access:** MySQLi/PHP database connection
-- **Local Development:** XAMPP or another PHP/MySQL server environment
+- **Database Access:** MySQLi
+- **Local Development:** XAMPP
+- **Code Editor:** Visual Studio Code
+
+---
 
 ## Project Structure
 
 ```text
-.
-├── about.php
-├── admin.php
-├── admin_login.php
-├── dashboard.php
-├── db.php
+Online-Examination-System/
+│
 ├── index.php
-├── login.php
-├── logout.php
-├── manage_exams.php
-├── online_exam_db.sql
-├── register.php
-├── result_view.php
-├── style.css
-├── submit_exam.php
-└── take_exam.php
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── about/
+│   └── about.php
+│
+├── admin/
+│   ├── admin.php
+│   ├── admin_login.php
+│   └── manage_exams.php
+│
+├── candidate/
+│   ├── dashboard.php
+│   ├── take_exam.php
+│   ├── submit_exam.php
+│   └── result_view.php
+│
+├── auth/
+│   ├── login.php
+│   ├── register.php
+│   └── logout.php
+│
+├── config/
+│   └── db.php
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   └── js/
+│       └── validation.js
+│
+└── database/
+    └── online_exam_db.sql
 ```
 
 ## Installation

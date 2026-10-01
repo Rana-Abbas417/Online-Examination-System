@@ -1,7 +1,5 @@
-/*CREATE DATABASE online_exam_db;
-USE online_exam_db;*/
-
-USE if0_42788133_exam_db;
+CREATE DATABASE online_exam_db;
+USE online_exam_db;
 
 CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,

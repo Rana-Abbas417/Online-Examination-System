@@ -1,0 +1,57 @@
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# =========================
+# Logs / Temporary Files
+# =========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+~*
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# PHP / Local Development
+# =========================
+vendor/
+composer.lock
+
+# =========================
+# Local Server / Generated Files
+# =========================
+php_errors.log
+error_log
+
+# =========================
+# Test / Coverage Output
+# =========================
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# =========================
+# OS / Local Database Dumps
+# =========================
+*.sqlite
+*.sqlite3
